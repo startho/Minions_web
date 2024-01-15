@@ -96,13 +96,38 @@ hr {
 .main_nav a:hover {
 	color: var(--base-font-color); 
 }
+.topNav {
+	height: 60px;
+}
 
 
+/*======trailer=====*/
 
+.devils {
+	z-index: 10;
+	left: 50%;
+	top: 40%;
+	transform: translateX(-50%); /* 변형: X축 이동(얼마) */
+}
+/* LoVe, HAte 상태선택:순서 .devils:visited, .devils:hover */
 
-
-
-
+.devils:hover {
+	display: none;
+}
+.youtubeWrap{
+    position: relative;
+    height: 240px;
+    padding-top: 0px;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+.youtubeWrap iframe,.youtubeWrap object,.youtubeWrap embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 
