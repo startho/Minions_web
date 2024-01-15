@@ -173,12 +173,13 @@ main h2 {
 	flex: 1;
 	text-align: center;
 }
-.character img {
+
+
+
+aside {
+	background-color: var(--main-font-color);
 	text-align: center;
 }
-
-
-
 
 
 
