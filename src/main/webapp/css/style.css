@@ -1,8 +1,11 @@
 @charset "UTF-8";
 :root {
 	--base-font-color: #000;
+	--light-font-color: #888;
+	--dark-font-color: #333;
 	--main-font-color: #f9c02d;
 	--main-link-color: #666;
+	
 	--base-font-size: 16px;
 	--point-font-size: 20px;
 }
@@ -31,6 +34,9 @@ a, a:link {
 	text-align: center
 }
 					/*========flex(컨테이너,아이템)=======*/
+.fs-0 {
+	font-size: 0
+}					
 .d-none {
 	display: none;
 }
@@ -55,6 +61,18 @@ a, a:link {
 }
 .container {
 	max-width: 1000px;
+}
+.py-1 {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.py-2 {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.py-3 {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 .mx-auto {
 	margin: 0 auto;
@@ -180,6 +198,24 @@ aside {
 	background-color: var(--main-font-color);
 	text-align: center;
 }
+
+.extra-links {
+	font-size: .75rem;
+}
+.extra-links a{
+	color: var(--light-font-color);
+}
+.extra-links a:hover{
+	color: var(--dark-font-color);
+}
+footer address {
+	font-size: .55rem;
+	color: var(--light-font-color);
+}
+
+
+
+
 
 
 
