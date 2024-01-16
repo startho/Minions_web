@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* @media screen and (max-width: 475px) {
+	
+}
+@media screen and (max-width: 420px) {
+	
+} */
+@media screen and (max-width: 360px) {
+	header > .container:nth-of-type(1) { /* 자손 요소 선택자 : > , 형제 요소 선택자 : +, ~, 후손 요소 선택자 */
+		position: relative;
+		align-items: flex-start
+	}
+	.header-logo {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 0;
+		width: 190px
+	}
+	.header-logo img {
+		width: 100%;
+		object-fit: cover; /* 이미지의 크기 비율을 자동으로 알맞게 조정하는 속성 */
+	}
+	.gap-1 {
+		gap: .5rem
+	}
+	header > .container {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		height: 143px;
+		box-sizing: border-box;
+	}
+	.topNav {
+		flex-wrap: wrap;
+		gap: 0;
+		text-align: center
+	}
+	.topNav a {
+		flex-shrink: 0;
+		flex-grow: 0;
+		flex-basis: 25%;
+		background-color: var(--main-font-color);
+		color: #000;
+		height: 30px;
+		line-height: 30px;
+		display: block;
+		font-size: .7rem;
+	}
+	.topNav a:hover {
+		background-color: black;
+		color: white
+	}
+	.youtube img {
+		display: none;
+	}
+	main h2 {
+		color: #000;
+		
+		
+	}
+	.container {
+		margin-top: 3rem;
+	}
+	.characters img {
+		width: 100%;
+		object-fit: cover;
+	}
+	.container img {
+		width: 100%;
+		object-fit: cover;
+	}
+	footer {
+		width: 100%;
+		object-fit: cover;
+	}
+	
+	
+	
+	
+	
+	
+	
+} 
